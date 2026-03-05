@@ -1,0 +1,208 @@
+/* Base para todo el sistema */
+body{
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+/* Solo para login */
+.login-page{
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  min-height: 100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.login-card {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.logo-icon {
+  font-size: 50px;
+}
+
+
+/* ===== Dashboard ===== */
+.page-wrap{
+  width: 100%;
+  min-height: 100vh;
+  padding: 25px;
+  background: #f4f6fb;
+}
+
+.topbar{
+  background: #fff;
+  border-radius: 14px;
+  padding: 14px 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.brand-badge{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.brand-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color:#fff;
+  font-size: 20px;
+}
+
+.card-soft{
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+}
+
+.stat{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 10px;
+}
+
+.stat .num{
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.kpi-icon{
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: #eef4ff;
+  font-size: 20px;
+}
+
+.quick a{
+  text-decoration:none;
+}
+
+.quick .btn{
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.table-rounded{
+  overflow:hidden;
+  border-radius: 16px;
+}
+
+/* ===== Productos ===== */
+.toolbar{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom: 12px;
+}
+.searchbox{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  align-items:center;
+}
+.searchbox input{
+  min-width: 260px;
+}
+.badge-stock{
+  font-weight:700;
+  border-radius: 999px;
+  padding: 6px 10px;
+}
+.row-actions a{
+  text-decoration:none;
+}
+.row-actions a:hover{
+  text-decoration:underline;
+}
+
+/* ===== POS ===== */
+
+.pos-container{
+  background:#f4f6fb;
+  min-height:100vh;
+  padding:25px;
+}
+
+.pos-card{
+  border:0;
+  border-radius:18px;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.pos-total{
+  font-size:32px;
+  font-weight:900;
+}
+
+.pos-total-box{
+  background:linear-gradient(135deg,#198754,#20c997);
+  color:white;
+  border-radius:16px;
+  padding:20px;
+  text-align:center;
+}
+
+.pos-input input{
+  font-size:18px;
+  height:50px;
+}
+
+.qty-input{
+  width:90px;
+}
+
+.cart-table td{
+  vertical-align:middle;
+}
+
+/* ===== Ventas ===== */
+
+.sales-container{
+  background:#f4f6fb;
+  min-height:100vh;
+  padding:25px;
+}
+
+.filter-box{
+  background:white;
+  padding:20px;
+  border-radius:16px;
+  box-shadow:0 10px 30px rgba(0,0,0,.06);
+  margin-bottom:20px;
+}
+
+.sales-total{
+  font-size:26px;
+  font-weight:900;
+}
+
+.sales-total-box{
+  background:linear-gradient(135deg,#0d6efd,#6610f2);
+  color:white;
+  border-radius:16px;
+  padding:20px;
+  text-align:center;
+}
+
+.table-sales{
+  border-radius:16px;
+  overflow:hidden;
+}
