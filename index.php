@@ -1,6 +1,12 @@
 <?php
 require_once __DIR__ . "/auth.php";
 
+// Si no hay sesión, manda al login
+if (empty($_SESSION['user'])) {
+  header("Location: login.php");
+  exit;
+}
+
 // KPIs rápidos
 // total productos
 $res = $mysqli->query("SELECT COUNT(*) AS c FROM products WHERE active=1");
