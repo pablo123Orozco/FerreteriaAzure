@@ -7,7 +7,7 @@ $DB_HOST = "ferreteria-mysql-server.mysql.database.azure.com";
 $DB_NAME = "ferreteria";
 
 // En Azure MySQL el usuario casi siempre es: usuario@servidor
-$DB_USER = "Pablo123";
+$DB_USER = "Pablo123@ferreteria-mysql-server";
 $DB_PASS = "ProyectoSeguridad2026";
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
